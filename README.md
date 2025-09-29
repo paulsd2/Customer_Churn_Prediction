@@ -1,13 +1,13 @@
-#Customer Churn Prediction
-###This project focuses on predicting customer churn using machine learning techniques.
-###The goal is to identify customers who are likely to stop using a service so that retention strategies can
+# Customer Churn Prediction
+### This project focuses on predicting customer churn using machine learning techniques.
+### The goal is to identify customers who are likely to stop using a service so that retention strategies can
 be applied.
-###Project Structure
+### Project Structure
 - data/: Raw & processed datasets
 - notebooks/: Jupyter notebooks with EDA & models
 - models/: Saved ML models
 - results/: Output plots, metrics, and predictions
-###Workflow
+### Workflow
 1. Exploratory Data Analysis (EDA)
 - Checked class balance (churn vs non-churn).
 - Visualized demographics and usage patterns.
@@ -24,15 +24,15 @@ be applied.
 - ROC-AUC ~0.85-0.90
 5. Prediction
 - Final model outputs probability of churn per customer.
-###Results
+### Results
 - Accuracy: ~85%
 - Recall (Churn): ~80%
 - ROC-AUC: ~0.88
-###Key insights:
+### Key insights:
 - Month-to-month contracts & higher charges → higher churn
 - Longer tenure → lower churn
-###Tech Stack
+### Tech Stack
 - Python (Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn)
 - Jupyter Notebook
-###Conclusion
+### Conclusion
 This project shows how ML helps predict churn and allows proactive retention measures.
